@@ -110,7 +110,7 @@ Description: Some font
 Package: fonts-symbola-elementary
 Architecture: any
 Pre-Depends: dpkg (>= 1.15.6)
-Description: Some font
+Description: Basic emoji font
  Provides basic emoji support.
 
 #
