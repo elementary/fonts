@@ -21,7 +21,8 @@ Description: Some font
 
 Package: fonts-elementary-core
 Architecture: all
-Depends: fonts-droid,
+Depends: fonts-croscore,
+         fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
          fonts-raleway-elementary
@@ -31,8 +32,7 @@ Description: elementary essential fonts
 
 Package: fonts-elementary-extra
 Architecture: all
-Depends: fonts-croscore,
-         fonts-capture-it-elementary,
+Depends: fonts-capture-it-elementary,
          fonts-daniel-elementary,
          fonts-hvd-bodedo-elementary,
          fonts-jenna-sue-elementary,
