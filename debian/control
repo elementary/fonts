@@ -31,7 +31,8 @@ Description: elementary essential fonts
 
 Package: fonts-elementary-extra
 Architecture: all
-Depends: fonts-capture-it-elementary,
+Depends: fonts-croscore,
+         fonts-capture-it-elementary,
          fonts-daniel-elementary,
          fonts-hvd-bodedo-elementary,
          fonts-jenna-sue-elementary,
