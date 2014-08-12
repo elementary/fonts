@@ -21,7 +21,8 @@ Description: Some font
 
 Package: fonts-elementary-core
 Architecture: all
-Depends: fonts-droid,
+Depends: fonts-croscore,
+         fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
          fonts-raleway-elementary
