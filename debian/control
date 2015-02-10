@@ -39,6 +39,7 @@ Depends: fonts-capture-it-elementary,
          fonts-limelight-elementary,
          fonts-lobster-elementary,
          fonts-operating-instructions-elementary,
+         fonts-open-sans-emoji-elementary,
          fonts-plainblack-elementary
 #          fonts-wc-roughtrad-elementary
 Pre-Depends: dpkg (>= 1.15.6)
@@ -86,6 +87,12 @@ Pre-Depends: dpkg (>= 1.15.6)
 Replaces: fonts-open-sans
 Description: Some font
  This is a font.
+
+Package: fonts-open-sans-emoji-elementary
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Mashup emoji font
+ OpenSans + AndroidEmoji + Symbola
 
 Package: fonts-operating-instructions-elementary
 Architecture: all
