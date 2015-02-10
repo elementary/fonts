@@ -115,12 +115,6 @@ Replaces: fonts-raleway
 Description: Some font
  This is a font.
 
-Package: fonts-symbola-elementary
-Architecture: all
-Pre-Depends: dpkg (>= 1.15.6)
-Description: Basic emoji font
- Provides basic emoji support.
-
 #
 # This needs to be TTF instead of ODT
 #
