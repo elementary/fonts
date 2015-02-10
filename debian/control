@@ -92,6 +92,8 @@ Description: Some font
 Package: fonts-open-sans-emoji-elementary
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6)
+Conflicts: fonts-symbola-elementary
+Replaces: fonts-symbola-elementary
 Description: Mashup emoji font
  OpenSans + AndroidEmoji + Symbola
 
