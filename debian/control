@@ -25,6 +25,7 @@ Depends: fonts-croscore,
          fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
+         fonts-open-sans-emoji-elementary,
          fonts-raleway-elementary
 Pre-Depends: dpkg (>= 1.15.6)
 Description: elementary essential fonts
@@ -87,6 +88,14 @@ Replaces: fonts-open-sans
 Description: Some font
  This is a font.
 
+Package: fonts-open-sans-emoji-elementary
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6)
+Conflicts: fonts-symbola-elementary
+Replaces: fonts-symbola-elementary
+Description: Mashup emoji font
+ OpenSans + AndroidEmoji + Symbola
+
 Package: fonts-operating-instructions-elementary
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6)
@@ -107,12 +116,6 @@ Pre-Depends: dpkg (>= 1.15.6)
 Replaces: fonts-raleway
 Description: Some font
  This is a font.
-
-Package: fonts-symbola-elementary
-Architecture: all
-Pre-Depends: dpkg (>= 1.15.6)
-Description: Basic emoji font
- Provides basic emoji support.
 
 #
 # This needs to be TTF instead of ODT
