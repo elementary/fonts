@@ -25,6 +25,7 @@ Depends: fonts-croscore,
          fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
+         fonts-open-sans-emoji-elementary,
          fonts-raleway-elementary
 Pre-Depends: dpkg (>= 1.15.6)
 Description: elementary essential fonts
