@@ -40,7 +40,6 @@ Depends: fonts-capture-it-elementary,
          fonts-limelight-elementary,
          fonts-lobster-elementary,
          fonts-operating-instructions-elementary,
-         fonts-open-sans-emoji-elementary,
          fonts-plainblack-elementary
 #          fonts-wc-roughtrad-elementary
 Pre-Depends: dpkg (>= 1.15.6)
