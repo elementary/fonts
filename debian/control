@@ -12,6 +12,16 @@ Replaces: fonts-capture-it
 Description: Some font
  This is a font.
 
+Package: fonts-croscore-config-elementary
+Depends: fonts-croscore
+Enhances: fonts-croscore
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Map open-source Croscore fonts to MS fonts
+ A font config that maps metrically compatible open-source fonts
+ Arimo (sans-serif), Tinos (serif) and Cousine (monospace) to
+ Arial, Times New Roman, and Courier New, respectively.
+
 Package: fonts-daniel-elementary
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6)
@@ -22,6 +32,7 @@ Description: Some font
 Package: fonts-elementary-core
 Architecture: all
 Depends: fonts-croscore,
+         fonts-croscore-config-elementary,
          fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
