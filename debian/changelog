@@ -1,3 +1,9 @@
+elementary-fonts (0.2) trusty; urgency=low
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementaryos.org>  Sat, 11 Apr 2015 02:08:20 -0500
+
 elementary-fonts (0.1) precise; urgency=low
 
   * Initial Release.
