@@ -1,3 +1,9 @@
+elementary-fonts (0.2.1) trusty; urgency=low
+
+  * New package fonts-croscore-config-elemenetary that ships 31-croscore-elementary.conf
+
+ -- Cody Garver <cody@elementaryos.org>  Mon, 13 Apr 2015 18:38:07 -0500
+
 elementary-fonts (0.2) trusty; urgency=low
 
   * New upstream release.
