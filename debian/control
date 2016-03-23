@@ -129,6 +129,12 @@ Replaces: fonts-raleway
 Description: Some font
  This is a font.
 
+Package: fonts-redacted-elementary
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Redacted script font
+ Font for concealing text.
+
 #
 # This needs to be TTF instead of ODT
 #
