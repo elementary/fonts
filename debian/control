@@ -34,6 +34,7 @@ Architecture: all
 Depends: fonts-croscore,
          fonts-croscore-config-elementary,
          fonts-khmer-mondulkiri-elementary,
+         fonts-noto,
          fonts-open-sans-elementary,
          fonts-raleway-elementary
 Pre-Depends: dpkg (>= 1.15.6)
