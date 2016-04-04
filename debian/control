@@ -33,7 +33,6 @@ Package: fonts-elementary-core
 Architecture: all
 Depends: fonts-croscore,
          fonts-croscore-config-elementary,
-         fonts-droid,
          fonts-khmer-mondulkiri-elementary,
          fonts-open-sans-elementary,
          fonts-raleway-elementary
