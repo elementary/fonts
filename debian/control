@@ -36,7 +36,8 @@ Depends: fonts-croscore,
          fonts-khmer-mondulkiri-elementary,
          fonts-noto,
          fonts-open-sans-elementary,
-         fonts-raleway-elementary
+         fonts-raleway-elementary,
+         fonts-roboto
 Pre-Depends: dpkg (>= 1.15.6)
 Description: elementary essential fonts
  These are fonts that elementary OS depends on.
