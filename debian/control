@@ -33,7 +33,6 @@ Package: fonts-elementary-core
 Architecture: all
 Depends: fonts-croscore,
          fonts-croscore-config-elementary,
-         fonts-khmer-mondulkiri-elementary,
          fonts-noto,
          fonts-open-sans-elementary,
          fonts-raleway-elementary,
@@ -69,13 +68,6 @@ Package: fonts-jenna-sue-elementary
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6)
 Replaces: fonts-jenna-sue
-Description: Some font
- This is a font.
-
-Package: fonts-khmer-mondulkiri-elementary
-Architecture: all
-Pre-Depends: dpkg (>= 1.15.6)
-Replaces: fonts-khmer-mondulkiri
 Description: Some font
  This is a font.
 
