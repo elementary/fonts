@@ -120,6 +120,13 @@ Pre-Depends: dpkg (>= 1.15.6)
 Description: Redacted script font
  Font for concealing text.
 
+Package: fonts-roboto-mono-elementary
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Monospaced addition to the Roboto type family
+ Roboto Mono gives special consideration to glyphs
+ important for reading and writing software source code.
+
 #
 # This needs to be TTF instead of ODT
 #
