@@ -53,7 +53,8 @@ Depends: fonts-capture-it-elementary,
          fonts-lobster-elementary,
          fonts-operating-instructions-elementary,
          fonts-opendyslexic,
-         fonts-plainblack-elementary
+         fonts-plainblack-elementary,
+         fonts-redacted-elementary
 #          fonts-wc-roughtrad-elementary
 Pre-Depends: dpkg (>= 1.15.6)
 Description: elementary featured fonts
