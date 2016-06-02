@@ -28,6 +28,8 @@ Description: Some font
 
 Package: fonts-elementary-core
 Architecture: all
+Conflicts: fonts-droid
+Replaces: fonts-droid
 Depends: fonts-croscore,
          fonts-croscore-config-elementary,
          fonts-noto,
@@ -67,6 +69,12 @@ Replaces: fonts-jenna-sue
 Description: Some font
  This is a font.
 
+Package: fonts-khmer-mondulkiri-elementary
+Architecture: all
+Depends: fonts-sil-mondulkiri
+Description: Dummy transitional package
+ Dummy transitional package, safe to remove.
+
 Package: fonts-limelight-elementary
 Architecture: all
 Replaces: fonts-limelight
@@ -84,6 +92,12 @@ Architecture: all
 Replaces: fonts-open-sans
 Description: Some font
  This is a font.
+
+Package: fonts-open-sans-emoji-elementary
+Architecture: all
+Depends: fonts-noto
+Description: Dummy transitional package
+ Dummy transitional package, safe to remove.
 
 Package: fonts-operating-instructions-elementary
 Architecture: all
