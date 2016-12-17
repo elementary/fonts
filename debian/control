@@ -7,6 +7,7 @@ Standards-Version: 3.9.6
 
 Package: fonts-capture-it-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-capture-it
 Description: Some font
  This is a font.
@@ -15,6 +16,7 @@ Package: fonts-croscore-config-elementary
 Depends: fonts-croscore
 Enhances: fonts-croscore
 Architecture: all
+Multi-Arch: foreign
 Description: Map open-source Croscore fonts to MS fonts
  A font config that maps metrically compatible open-source fonts
  Arimo (sans-serif), Tinos (serif) and Cousine (monospace) to
@@ -22,12 +24,14 @@ Description: Map open-source Croscore fonts to MS fonts
 
 Package: fonts-daniel-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-daniel
 Description: Some font
  This is a font.
 
 Package: fonts-elementary-core
 Architecture: all
+Multi-Arch: foreign
 Conflicts: fonts-droid
 Replaces: fonts-droid
 Depends: fonts-croscore,
@@ -38,11 +42,12 @@ Depends: fonts-croscore,
          fonts-roboto,
          fonts-roboto-mono-elementary,
          fonts-sil-mondulkiri
-Description: elementary essential fonts
+Description: elementary essential fonts (dependency package)
  These are fonts that elementary OS depends on.
 
 Package: fonts-elementary-extra
 Architecture: all
+Multi-Arch: foreign
 Depends: fonts-capture-it-elementary,
          fonts-daniel-elementary,
          fonts-hvd-bodedo-elementary,
@@ -54,76 +59,90 @@ Depends: fonts-capture-it-elementary,
          fonts-plainblack-elementary,
          fonts-redacted-elementary
 #          fonts-wc-roughtrad-elementary
-Description: elementary featured fonts
+Description: elementary featured fonts (dependency package)
  These are fonts that elementary likes.
 
 Package: fonts-hvd-bodedo-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-hvd-bodedo
 Description: Some font
  This is a font.
 
 Package: fonts-jenna-sue-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-jenna-sue
 Description: Some font
  This is a font.
 
 Package: fonts-khmer-mondulkiri-elementary
+Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: fonts-sil-mondulkiri
 Description: Dummy transitional package
  Dummy transitional package, safe to remove.
 
 Package: fonts-limelight-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-limelight
 Description: Some font
  This is a font.
 
 Package: fonts-lobster-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-lobster
 Description: Some font
  This is a font.
 
 Package: fonts-open-sans-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-open-sans
 Description: Some font
  This is a font.
 
 Package: fonts-open-sans-emoji-elementary
+Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: fonts-noto
 Description: Dummy transitional package
  Dummy transitional package, safe to remove.
 
 Package: fonts-operating-instructions-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-operating-instructions
 Description: Some font
  This is a font.
 
 Package: fonts-plainblack-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-plainblack
 Description: Some font
  This is a font.
 
 Package: fonts-raleway-elementary
 Architecture: all
+Multi-Arch: foreign
 Replaces: fonts-raleway
 Description: Some font
  This is a font.
 
 Package: fonts-redacted-elementary
 Architecture: all
+Multi-Arch: foreign
 Description: Redacted script font
  Font for concealing text.
 
 Package: fonts-roboto-mono-elementary
 Architecture: all
+Multi-Arch: foreign
 Description: Monospaced addition to the Roboto type family
  Roboto Mono gives special consideration to glyphs
  important for reading and writing software source code.
@@ -133,5 +152,6 @@ Description: Monospaced addition to the Roboto type family
 #
 # Package: fonts-wc-roughtrad-elementary
 # Architecture: all
+# Multi-Arch: foreign
 # Description: Some font
 #  This is a font.
