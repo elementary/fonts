@@ -37,6 +37,7 @@ Replaces: fonts-droid
 Depends: fonts-croscore,
          fonts-croscore-config-elementary,
          fonts-noto,
+         fonts-noto-color-emoji,
          fonts-open-sans-elementary,
          fonts-raleway-elementary,
          fonts-roboto,
