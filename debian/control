@@ -35,7 +35,6 @@ Multi-Arch: foreign
 Conflicts: fonts-droid
 Replaces: fonts-droid
 Depends: fonts-croscore,
-         fonts-croscore-config-elementary,
          fonts-noto,
          fonts-noto-color-emoji,
          fonts-open-sans-elementary,
@@ -43,6 +42,7 @@ Depends: fonts-croscore,
          fonts-roboto,
          fonts-roboto-mono-elementary,
          fonts-sil-mondulkiri
+Recommends: fonts-croscore-config-elementary
 Description: elementary essential fonts (dependency package)
  These are fonts that elementary OS depends on.
 
