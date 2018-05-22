@@ -1,3 +1,9 @@
+elementary-fonts (5.0) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Tue, 22 May 2018 12:08:39 -0500
+
 elementary-fonts (0.2.1) trusty; urgency=low
 
   * New package fonts-croscore-config-elemenetary that ships 31-croscore-elementary.conf
