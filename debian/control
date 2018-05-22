@@ -37,7 +37,7 @@ Replaces: fonts-droid
 Depends: fonts-croscore,
          fonts-noto,
          fonts-noto-color-emoji,
-         fonts-open-sans-elementary,
+         fonts-open-sans,
          fonts-raleway-elementary,
          fonts-roboto,
          fonts-roboto-mono-elementary,
@@ -100,11 +100,13 @@ Description: Some font
  This is a font.
 
 Package: fonts-open-sans-elementary
+Section: oldlibs
 Architecture: all
 Multi-Arch: foreign
-Replaces: fonts-open-sans
-Description: Some font
- This is a font.
+Priority: optional
+Depends: fonts-open-sans
+Description: Dummy transitional package
+ Dummy transitional package, safe to remove.
 
 Package: fonts-open-sans-emoji-elementary
 Section: oldlibs
