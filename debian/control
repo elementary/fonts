@@ -1,7 +1,7 @@
 Source: elementary-fonts
 Section: fonts
 Priority: extra
-Maintainer: Cody Garver <cody@elementary.io>
+Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
@@ -35,6 +35,7 @@ Multi-Arch: foreign
 Conflicts: fonts-droid
 Replaces: fonts-droid
 Depends: fonts-croscore,
+         fonts-inter-elementary,
          fonts-noto,
          fonts-noto-color-emoji,
          fonts-open-sans,
@@ -59,7 +60,6 @@ Depends: fonts-capture-it-elementary,
          fonts-opendyslexic,
          fonts-plainblack-elementary,
          fonts-redacted-elementary
-#          fonts-wc-roughtrad-elementary
 Description: elementary featured fonts (dependency package)
  These are fonts that elementary likes.
 
@@ -69,6 +69,12 @@ Multi-Arch: foreign
 Replaces: fonts-hvd-bodedo
 Description: Some font
  This is a font.
+
+Package: fonts-inter-elementary
+Architecture: all
+Multi-Arch: foreign
+Description: Inter typeface
+ Inter is a typeface carefully crafted & designed for computer screens.
 
 Package: fonts-jenna-sue-elementary
 Architecture: all
@@ -150,11 +156,3 @@ Description: Monospaced addition to the Roboto type family
  Roboto Mono gives special consideration to glyphs
  important for reading and writing software source code.
 
-#
-# This needs to be TTF instead of ODT
-#
-# Package: fonts-wc-roughtrad-elementary
-# Architecture: all
-# Multi-Arch: foreign
-# Description: Some font
-#  This is a font.

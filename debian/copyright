@@ -1,9 +1,9 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: elementary-fonts
-Source: https://elementaryos.org
+Source: https://elementary.io
 
 Files: debian/*
-Copyright: 2013 Cody Garver <cody@elementaryos.org>
+Copyright: 2020 elementary, Inc. (https://elementary.io)
 License: GPL-3.0+
 
 License: GPL-3.0+
