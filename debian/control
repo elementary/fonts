@@ -1,19 +1,21 @@
 Source: elementary-fonts
 Section: fonts
-Priority: extra
+Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 13)
 Standards-Version: 3.9.6
 
 Package: fonts-capture-it-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-capture-it
 Description: Some font
  This is a font.
 
 Package: fonts-croscore-config-elementary
-Depends: fonts-croscore
+Depends: fonts-croscore,
+         ${misc:Depends}
 Enhances: fonts-croscore
 Architecture: all
 Multi-Arch: foreign
@@ -25,6 +27,7 @@ Description: Map open-source Croscore fonts to MS fonts
 Package: fonts-daniel-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-daniel
 Description: Some font
  This is a font.
@@ -41,7 +44,8 @@ Depends: fonts-croscore,
          fonts-raleway-elementary,
          fonts-roboto,
          fonts-roboto-mono-elementary,
-         fonts-sil-mondulkiri
+         fonts-sil-mondulkiri,
+         ${misc:Depends}
 Recommends: fonts-croscore-config-elementary
 Description: elementary essential fonts (dependency package)
  These are fonts that elementary OS depends on.
@@ -58,14 +62,15 @@ Depends: fonts-capture-it-elementary,
          fonts-operating-instructions-elementary,
          fonts-opendyslexic,
          fonts-plainblack-elementary,
-         fonts-redacted-elementary
-#          fonts-wc-roughtrad-elementary
+         fonts-redacted-elementary,
+         ${misc:Depends}
 Description: elementary featured fonts (dependency package)
  These are fonts that elementary likes.
 
 Package: fonts-hvd-bodedo-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-hvd-bodedo
 Description: Some font
  This is a font.
@@ -73,6 +78,7 @@ Description: Some font
 Package: fonts-jenna-sue-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-jenna-sue
 Description: Some font
  This is a font.
@@ -81,13 +87,15 @@ Package: fonts-khmer-mondulkiri-elementary
 Section: oldlibs
 Architecture: all
 Multi-Arch: foreign
-Depends: fonts-sil-mondulkiri
+Depends: fonts-sil-mondulkiri,
+         ${misc:Depends}
 Description: Dummy transitional package
  Dummy transitional package, safe to remove.
 
 Package: fonts-limelight-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-limelight
 Description: Some font
  This is a font.
@@ -95,6 +103,7 @@ Description: Some font
 Package: fonts-lobster-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-lobster
 Description: Some font
  This is a font.
@@ -104,7 +113,8 @@ Section: oldlibs
 Architecture: all
 Multi-Arch: foreign
 Priority: optional
-Depends: fonts-open-sans
+Depends: fonts-open-sans,
+         ${misc:Depends}
 Description: Dummy transitional package
  Dummy transitional package, safe to remove.
 
@@ -112,13 +122,15 @@ Package: fonts-open-sans-emoji-elementary
 Section: oldlibs
 Architecture: all
 Multi-Arch: foreign
-Depends: fonts-noto
+Depends: fonts-noto,
+         ${misc:Depends}
 Description: Dummy transitional package
  Dummy transitional package, safe to remove.
 
 Package: fonts-operating-instructions-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-operating-instructions
 Description: Some font
  This is a font.
@@ -126,6 +138,7 @@ Description: Some font
 Package: fonts-plainblack-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-plainblack
 Description: Some font
  This is a font.
@@ -133,6 +146,7 @@ Description: Some font
 Package: fonts-raleway-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Replaces: fonts-raleway
 Description: Some font
  This is a font.
@@ -140,21 +154,14 @@ Description: Some font
 Package: fonts-redacted-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Description: Redacted script font
  Font for concealing text.
 
 Package: fonts-roboto-mono-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Description: Monospaced addition to the Roboto type family
  Roboto Mono gives special consideration to glyphs
  important for reading and writing software source code.
-
-#
-# This needs to be TTF instead of ODT
-#
-# Package: fonts-wc-roughtrad-elementary
-# Architecture: all
-# Multi-Arch: foreign
-# Description: Some font
-#  This is a font.
