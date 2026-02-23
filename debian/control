@@ -1,7 +1,7 @@
 Source: elementary-fonts
 Section: fonts
 Priority: optional
-Maintainer: elementary, Inc. <builds@elementary.io>
+Maintainer: elementary <builds@elementary.io>
 Build-Depends: debhelper (>= 13)
 Standards-Version: 3.9.6
 
@@ -37,7 +37,8 @@ Package: fonts-elementary-extra
 Architecture: all
 Multi-Arch: foreign
 Depends: fonts-opendyslexic,
-         fonts-redacted-elementary
+         fonts-redacted-elementary,
+         ${misc:Depends}
 Description: elementary featured fonts (dependency package)
  These are fonts that elementary likes.
 
