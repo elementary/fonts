@@ -1,12 +1,13 @@
 Source: elementary-fonts
 Section: fonts
-Priority: extra
-Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: debhelper (>= 9)
+Priority: optional
+Maintainer: elementary <builds@elementary.io>
+Build-Depends: debhelper (>= 13)
 Standards-Version: 3.9.6
 
 Package: fonts-croscore-config-elementary
-Depends: fonts-croscore
+Depends: fonts-croscore,
+         ${misc:Depends}
 Enhances: fonts-croscore
 Architecture: all
 Multi-Arch: foreign
@@ -26,7 +27,8 @@ Depends: fonts-croscore,
          fonts-open-sans,
          fonts-roboto,
          fonts-roboto-mono-elementary,
-         fonts-sil-mondulkiri
+         fonts-sil-mondulkiri,
+         ${misc:Depends}
 Recommends: fonts-croscore-config-elementary
 Description: elementary essential fonts (dependency package)
  These are fonts that elementary OS depends on.
@@ -35,19 +37,22 @@ Package: fonts-elementary-extra
 Architecture: all
 Multi-Arch: foreign
 Depends: fonts-opendyslexic,
-         fonts-redacted-elementary
+         fonts-redacted-elementary,
+         ${misc:Depends}
 Description: elementary featured fonts (dependency package)
  These are fonts that elementary likes.
 
 Package: fonts-redacted-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Description: Redacted script font
  Font for concealing text.
 
 Package: fonts-roboto-mono-elementary
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Description: Monospaced addition to the Roboto type family
  Roboto Mono gives special consideration to glyphs
  important for reading and writing software source code.
