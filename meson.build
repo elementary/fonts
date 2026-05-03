@@ -12,9 +12,9 @@ install_data(
 )
 
 install_symlink(
-  '31-croscore-elementary.conf',
-  install_dir: get_option('sysconfdir') / 'fonts' / 'conf.d',
-  pointing_to: conf_avail_dir / '31-croscore-elementary.conf'
+    '31-croscore-elementary.conf',
+    install_dir: get_option('sysconfdir') / 'fonts' / 'conf.d',
+    pointing_to: conf_avail_dir / '31-croscore-elementary.conf'
 )
 
 subdir('redacted')
