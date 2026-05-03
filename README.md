@@ -4,9 +4,7 @@ Default fonts that we rely on in elementary OS
 
 ## License
 
-"Redacted" is available under SIL OPEN FONT LICENSE Version 1.1
-
-"Roboto Mono" is available under Apache License Version 2
+"Redacted" and "Roboto Mono" is available under SIL OPEN FONT LICENSE Version 1.1
 
 ## Crosscore
 
