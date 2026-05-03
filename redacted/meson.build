@@ -7,6 +7,6 @@ fonts = [
 foreach font : fonts
     install_data(
         font,
-        install_dir: fonts_dir
+        install_dir: fonts_dir / 'redacted-elementary'
     )
 endforeach
