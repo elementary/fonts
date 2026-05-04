@@ -2,7 +2,7 @@ Format: http://dep.debian.net/deps/dep5
 Upstream-Name: elementary-fonts
 Source: https://github.com/elementary/fonts
 
-Files: debian/*
+Files: *
 Copyright: 2013-2018 Cody Garver <cody@elementaryos.org>
            2026 elementary, Inc. (https://elementary.io)
 License: GPL-3.0+
