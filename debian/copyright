@@ -3,7 +3,8 @@ Upstream-Name: elementary-fonts
 Source: https://elementaryos.org
 
 Files: debian/*
-Copyright: 2013 Cody Garver <cody@elementaryos.org>
+Copyright: 2013-2018 Cody Garver <cody@elementaryos.org>
+           2026 elementary, Inc. (https://elementary.io)
 License: GPL-3.0+
 
 Files: redacted/*.ttf
