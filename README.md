@@ -20,12 +20,12 @@ You'll need the following dependencies:
 Run `meson setup` to configure the build environment
 
 ```bash
-    meson setup build --prefix=/usr
+meson setup build --prefix=/usr
 ```
 
 Change to the build directory and run `ninja install` to install
 
 ```bash
-    cd build
-    ninja install
+cd build
+ninja install
 ```

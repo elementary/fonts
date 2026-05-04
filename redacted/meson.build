@@ -1,14 +1,12 @@
-install_data(
+fonts = [
     'redacted-script-bold.ttf',
-    install_dir: fonts_dir
-)
-
-install_data(
     'redacted-script-light.ttf',
-    install_dir: fonts_dir
-)
-
-install_data(
     'redacted-script-regular.ttf',
-    install_dir: fonts_dir
-)
+]
+
+foreach font : fonts
+    install_data(
+        font,
+        install_dir: fonts_dir / 'redacted-elementary'
+    )
+endforeach
