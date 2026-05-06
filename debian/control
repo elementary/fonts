@@ -2,7 +2,8 @@ Source: elementary-fonts
 Section: fonts
 Priority: optional
 Maintainer: elementary <builds@elementary.io>
-Build-Depends: debhelper (>= 13)
+Build-Depends: debhelper (>= 13),
+               meson
 Standards-Version: 3.9.6
 
 Package: fonts-croscore-config-elementary
